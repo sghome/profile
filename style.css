@@ -27,6 +27,14 @@ a, a:hover {
   text-decoration: none;
 }
 
+
+
+
+
+
+
+
+
 .icon {
   display: inline-block;
   width: 1em;
@@ -44,9 +52,14 @@ a, a:hover {
   padding: 50px 20px;
   padding-top: 100px;
   display: flex;
-  background-image: linear-gradient(-20deg, #ff2846 0%, #6944ff 100%);
-  display: flex;
-  background-image: linear-gradient(-20deg, #ff2846 0%, #6944ff 100%);
+  background-image: url(https://cdn.glitch.global/10301c89-cc0c-4bab-92a1-0450d4b29055/b.png);
+
+ background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    background-attachment: fixed;
+    
 }
 @media screen and (max-width: 768px) {
   .wrapper {
@@ -60,11 +73,12 @@ a, a:hover {
   width: 100%;
   min-height: 460px;
   margin: auto;
-  box-shadow: 0px 8px 60px -10px rgba(13, 28, 39, 0.6);
-  background: #fff;
-  border-radius: 12px;
+  
+  background: 0.2;
+
   max-width: 700px;
   position: relative;
+  
 }
 .profile-card.active .profile-card__cnt {
   filter: blur(6px);
@@ -80,21 +94,27 @@ a, a:hover {
   transition-delay: 0.1s;
 }
 .profile-card__img {
-  width: 150px;
-  height: 150px;
+  width: 350px;
+  height: 350px;
+  
   margin-left: auto;
   margin-right: auto;
-  transform: translateY(-50%);
-  border-radius: 50%;
+  transform: translateY(-30%);
+  
   overflow: hidden;
   position: relative;
+  top: flex;
   z-index: 4;
-  box-shadow: 0px 5px 50px 0px #6c44fc, 0px 0px 0px 7px rgba(107, 74, 255, 0.5);
+ 
 }
+
+
+
+
 @media screen and (max-width: 576px) {
   .profile-card__img {
-    width: 120px;
-    height: 120px;
+    width: 320px;
+    height: 320px;
   }
 }
 .profile-card__img img {
@@ -102,8 +122,17 @@ a, a:hover {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  border-radius: 50%;
+  
 }
+
+
+
+
+
+
+
+
+
 .profile-card__cnt {
   margin-top: -35px;
   text-align: center;
@@ -114,13 +143,13 @@ a, a:hover {
 .profile-card__name {
   font-weight: 700;
   font-size: 24px;
-  color: #6944ff;
-  margin-bottom: 15px;
+  color: #402717;
+  margin-bottom: 20px;
 }
 .profile-card__txt {
   font-size: 18px;
   font-weight: 500;
-  color: #324e63;
+  color: #402717;
   margin-bottom: 15px;
 }
 .profile-card__txt strong {

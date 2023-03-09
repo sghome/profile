@@ -1,4 +1,14 @@
-@import url("https://cdn.glitch.global/10301c89-cc0c-4bab-92a1-0450d4b29055/Sketchtica.ttf");
+
+@font-face {
+    font-family: 'sketchticamedium';
+    src: url('sketchtica-webfont.woff2') format('woff2'),
+         url('sketchtica-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
 html {
   position: relative;
   overflow-x: hidden !important;

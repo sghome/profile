@@ -36,6 +36,10 @@
           Síguenos y entérate de más
         </span>
       </div>
+      
+      
+       
+  
 
       <div class="profile-card-inf">
         <div class="profile-card-inf__item">
@@ -48,6 +52,7 @@
           <div class="profile-card-inf__txt">Following</div>
         </div>
 
+     
      
 
 
@@ -84,16 +89,38 @@
           </span>
         </a>
 
-      </div>
 
-     
+
+
+ 
+
+
+
+
+      </div>
+      
+      
+      
+       <div class="image-list">
+        <a href="https://app.eventmaster.com.br/event/oca23/site/content/inicio">
+    <div class="image" style="background-image:url('d.gif')"></div>
+   </a>
+  </div>
+      
     </div>
     
 
   </div>
+  
+  
+
 
 
 </div>
+
+
+ 
+
 
 
 
@@ -159,6 +186,23 @@
 </svg>
 <!-- partial -->
 
+<script>
+
+$(".image").click(function(){
+  hide_image_list();
+});
+
+function hide_image_list(){
+  $(".image").addClass('hide')
+    .delay(2000)
+    .queue(function(){      
+      $(this).
+      removeClass('hide')
+      .dequeue();
+    });
+}
+
+</script>
 
   <script  src="./script.js"></script>
 

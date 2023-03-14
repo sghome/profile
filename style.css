@@ -1,3 +1,66 @@
+:root {
+  --gallery-image-list-box-shadow: rgba(247,129,79,0.6);
+}
+
+
+.image{
+  display:inline-flex;
+  margin-left:1vw;
+  margin-right: 1vw;
+  margin-top:2vw;
+  height: 9vw;
+  width: 90%;
+
+  transition:0.5s;
+  background-size:cover;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  -webkit-box-shadow: inset 0px 0px 10px 5px var(--gallery-image-list-box-shadow);
+  -moz-box-shadow: inset 0px 0px 10px 5px var(--gallery-image-list-box-shadow);
+  box-shadow: inset 0px 0px 10px 5px var(--gallery-image-list-box-shadow);
+}
+.image:hover{
+  transition:0.5s;
+  transform:scale(1.2);
+}
+.hide{
+  -webkit-clip-path: polygon(60% 0, 60% 0, 40% 100%, 40% 100%);
+ 
+}
+
+
+
+
+
+@media screen and (max-width: 768px) {
+  
+  
+  .image{
+  display:inline-flex;
+  margin-left:1vw;
+  margin-right: 1vw;
+  margin-top: 7vw;
+  height: 15vw;
+  width: 80%;
+
+  transition:0.5s;
+  background-size:cover;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  -webkit-box-shadow: inset 0px 0px 10px 5px var(--gallery-image-list-box-shadow);
+  -moz-box-shadow: inset 0px 0px 10px 5px var(--gallery-image-list-box-shadow);
+  box-shadow: inset 0px 0px 10px 5px var(--gallery-image-list-box-shadow);
+}
+
+}
+
+
+
+
+
+
+
+
 
 @font-face {
     font-family: 'sketchticamedium';
@@ -103,7 +166,7 @@ a, a:hover {
   
   overflow: hidden;
   position: relative;
-  top: flex;
+  bottom: -68px;
   z-index: 4;
  
 }
@@ -144,7 +207,8 @@ a, a:hover {
   font-weight: 700;
   font-size: 24px;
   color: #402717;
-  margin-bottom: 20px;
+  margin-bottom: 5px;
+  margin-top: 5px;
 }
 .profile-card__txt {
   font-size: 18px;
@@ -172,7 +236,7 @@ a, a:hover {
   justify-content: center;
   flex-wrap: wrap;
   align-items: flex-start;
-  margin-top: 35px;
+  margin-top: 5px;
 }
 .profile-card-inf__item {
   padding: 10px 35px;
@@ -194,7 +258,7 @@ a, a:hover {
   margin-top: 7px;
 }
 .profile-card-social {
-  margin-top: 25px;
+  margin-top: 5px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -218,14 +282,14 @@ a, a:hover {
 }
 @media screen and (max-width: 768px) {
   .profile-card-social__item {
-    width: 50px;
-    height: 50px;
+    width: 30px;
+    height: 30px;
     margin: 10px;
   }
 }
 @media screen and (min-width: 768px) {
   .profile-card-social__item:hover {
-    transform: scale(1.2);
+    transform: scale(1.0);
   }
 }
 .profile-card-social__item.facebook {

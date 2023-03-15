@@ -494,7 +494,7 @@ a, a:hover {
 .check {
   position: relative;
   left: 1%;
-  width: 45px;
+  width: 40px;
 }
 
 .check:before {

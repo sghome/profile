@@ -514,7 +514,7 @@ a, a:hover {
   background: #fff;
   border-radius: 25px;
   transition: 0.25s;
-  border: 2px solid #333;
+  border: 1px solid #fff;
   box-sizing: border-box;
 }
 
@@ -525,5 +525,5 @@ a, a:hover {
 }
 
 .check:checked:before {
-  background: #333;
+  background: #fff;
 }

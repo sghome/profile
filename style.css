@@ -494,7 +494,7 @@ a, a:hover {
 .check {
   position: relative;
   left: 1%;
-  width: 40px;
+  width: 41px;
 }
 
 .check:before {
@@ -514,7 +514,7 @@ a, a:hover {
   background: #fff;
   border-radius: 25px;
   transition: 0.25s;
-  border: 1px solid #fff;
+  border: 2px solid #333;
   box-sizing: border-box;
 }
 
@@ -525,5 +525,5 @@ a, a:hover {
 }
 
 .check:checked:before {
-  background: #fff;
+  background: #333;
 }

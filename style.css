@@ -493,15 +493,15 @@ a, a:hover {
 
 .check {
   position: relative;
-  left: 1%;
-  width: 41px;
+  left: 0.5%;
+  width: 40px;
 }
 
 .check:before {
   content: "";
   position: absolute;
-  width: 40px;
-  height: 15px;
+  width: 42px;
+  height: 17px;
   background-color: #333;
   border-radius: 25px;
 }
@@ -509,12 +509,12 @@ a, a:hover {
 .check:after {
   content: "";
   position: absolute;
-  width: 15px;
-  height: 15px;
+  width: 17px;
+  height: 17px;
   background: #fff;
   border-radius: 25px;
   transition: 0.25s;
-  border: 0px solid #fff;
+  border: 2px solid #333;
   box-sizing: border-box;
 }
 

@@ -514,7 +514,7 @@ a, a:hover {
   background: #fff;
   border-radius: 25px;
   transition: 0.25s;
-  border: 2px solid #333;
+  border: 0px solid #fff;
   box-sizing: border-box;
 }
 

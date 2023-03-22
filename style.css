@@ -320,9 +320,8 @@ a, a:hover {
   background: linear-gradient(45deg, #324e63, #414447);
   box-shadow: 0px 4px 30px rgba(59, 18, 1, 0.5);
 }
-.profile-card-social__item.link {
-  box-shadow: 0px 4px 30px rgba(59, 18, 1, 0.5);
-}
+
+
 .profile-card-social .icon-font {
   display: inline-flex;
 }

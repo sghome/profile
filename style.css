@@ -231,7 +231,7 @@ a, a:hover {
   font-weight: 600;
 }
 .profile-card-loc__icon {
-  
+  display: inline-flex;
   font-size: 27px;
   margin-right: 10px;
 }

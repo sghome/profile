@@ -277,8 +277,8 @@ a, a:hover {
   margin: 15px;
   border-radius: 50%;
   color: #fff;
-  background: #3b1201d9;
-  box-shadow: 0px 7px 30px rgba(43, 98, 169, 0.5);
+ 
+  box-shadow: 0px 7px 30px rgba(59, 18, 1, 0.5);
   position: relative;
   font-size: 21px;
   flex-shrink: 0;

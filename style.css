@@ -270,10 +270,15 @@ a, a:hover {
 }
 .profile-card-social__item {
   display: inline-flex;
-  
   align-items: center;
   justify-content: center;
-
+  width: 55px;
+  height: 55px;
+  margin: 15px;
+  border-radius: 50%;
+  color: #fff;
+  background: #405de6;
+  opacity: 0.1;
   box-shadow: 0px 7px 30px rgba(43, 98, 169, 0.5);
   position: relative;
   font-size: 21px;

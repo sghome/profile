@@ -15,9 +15,7 @@
   background-size:cover;
   background-repeat: no-repeat;
   cursor: pointer;
-  -webkit-box-shadow: inset 0px 0px 10px 5px var(--gallery-image-list-box-shadow);
-  -moz-box-shadow: inset 0px 0px 10px 5px var(--gallery-image-list-box-shadow);
-  box-shadow: inset 0px 0px 10px 5px var(--gallery-image-list-box-shadow);
+
 }
 .image:hover{
   transition:0.5s;
